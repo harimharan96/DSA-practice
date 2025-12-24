@@ -42,3 +42,29 @@ function printNumbers() {
         console.log(starString);
     }
 }
+
+// 1
+// 22
+// 333
+// 4444
+// 55555
+
+function printNumbers() {
+    var numStr = '';
+    for (var i = 1; i <= 5; i++) {
+        numStr = String(i).repeat(i);
+        console.log(numStr);
+    }
+}
+
+// *****
+// ****
+// ***
+// **
+// *
+
+function printStr() {
+    for (var i = 5; i >= 0; i--) {
+        console.log("*".repeat(i));
+    }
+}
