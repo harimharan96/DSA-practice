@@ -22,7 +22,7 @@ function printStars() {
     var starString = "*";
     var height = 5;
 
-    for (var i = 1; i <= 5; i++) {
+    for (var i = 1; i <= height; i++) {
         console.log(starString.repeat(i));
     }
 }
@@ -37,7 +37,7 @@ function printNumbers() {
     let starString = "";
     var height = 5;
 
-    for (var i = 1; i <= 5; i++) {
+    for (var i = 1; i <= height; i++) {
         starString = starString + i;
         console.log(starString);
     }
